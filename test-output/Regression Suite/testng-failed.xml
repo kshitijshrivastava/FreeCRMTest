@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Regression Suite]">
+  <test thread-count="5" name="Test Free CRM Site(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.DealsPageTest">
+        <methods>
+          <include name="addNewDeal" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.DealsPageTest -->
+    </classes>
+  </test> <!-- Test Free CRM Site(failed) -->
+</suite> <!-- Failed suite [Regression Suite] -->
